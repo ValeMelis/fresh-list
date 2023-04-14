@@ -1,11 +1,22 @@
 export function Header() {
+  const items = [
+    {name: "Home", href: "/"},
+    {name: "Languages", href: "/languages"},
+    {name: "Framework", href: "/frameworks"}
+  ];
   return (
     <>
       <header class="">
-        <nav class="flex items-center justify-between ">
-          <a href="/" class="m-4 ml-32">Home</a>
-          <a href="/languages" class="m-4">Languages</a>
-          <a href="/frameworks" class="m-4 mr-32">Frameworks</a>
+        <nav class="flex">
+          <ul class="flex justify-center items-center gap-4 mx-auto my-6 flex-wrap max-w-screen-md">
+            {items.map((item) => (
+              <li>
+                <a href={item.href} class="p-2">
+                  {item.name}
+                </a>
+              </li>
+            ))}
+          </ul>
         </nav>
       </header>
     </>

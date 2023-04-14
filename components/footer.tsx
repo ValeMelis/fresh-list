@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <>
-      <footer class="absolute grid grid-cols-2 bottom-4 left-4 gap-4">
+      <footer class="flex justify-center items-center mt-48 mx-auto flex-wrap max-w-screen-md">
         <a href="https://fresh.deno.dev" class="">
           <img
             width="197"
