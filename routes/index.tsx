@@ -1,4 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
+import { Footer } from "../components/footer.tsx"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           Here are some examples of uses:
         </p>
       </div>
+      <Footer/>
     </>
   );
 }
