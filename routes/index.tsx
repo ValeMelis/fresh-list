@@ -1,4 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
+import { Header } from "../components/header.tsx"
 import { Footer } from "../components/footer.tsx"
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Fresh App</title>
       </Head>
+      <Header />
       <div class="p-4 mx-auto max-w-screen-md">
         <img
           src="/logo.svg"
