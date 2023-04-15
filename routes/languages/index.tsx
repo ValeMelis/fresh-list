@@ -5,16 +5,18 @@ import { Footer } from "../../components/footer.tsx"
 export default function Languages() {
   return (
     <>
-      <Head>
-        <title>Languages</title>
-      </Head>
-      <Header />
-      <div class="p-4 mx-auto max-w-screen-md">
-        <p class="my-6">
-          All the languages i work with
-        </p>
-      </div>
-      <Footer />
+      <body class="bg-green-100">
+        <Head>
+          <title>Languages</title>
+        </Head>
+        <Header />
+        <div class="p-4 mx-auto w-full h-full">
+          <p class="my-6">
+            All the languages i work with
+          </p>
+        </div>
+        <Footer />
+      </body>
     </>
   );
 }
