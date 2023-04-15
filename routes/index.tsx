@@ -10,7 +10,7 @@ export default function Home() {
           <title>Vale's web portfolio</title>
         </Head>
         <Header />
-        <div class="p-4 mx-auto w-full my-auto h-full">
+        <div class="p-4 mx-auto w-full my-auto h-full font-mono">
           <img
             src="/logo.svg"
             class="w-32 h-32"
