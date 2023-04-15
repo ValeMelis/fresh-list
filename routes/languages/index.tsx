@@ -10,7 +10,7 @@ export default function Languages() {
           <title>Languages</title>
         </Head>
         <Header />
-        <div class="p-4 mx-auto w-full h-full font-mono">
+        <div class="p-4 mx-auto w-full h-full font-sans">
           <p class="my-6">
             All the languages i work with
           </p>

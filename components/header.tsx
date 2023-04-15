@@ -6,7 +6,7 @@ export function Header() {
   ];
   return (
     <>
-      <header class="bg-green-900 relative top-0 font-mono">
+      <header class="bg-green-900 relative top-0 font-sans text-xl">
         <nav class="flex sticky">
           <ul class="flex justify-center items-center gap-4 mx-auto my-6 flex-wrap min-w-full">
             {items.map((item) => (
