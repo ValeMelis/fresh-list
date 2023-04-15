@@ -6,8 +6,8 @@ export function Header() {
   ];
   return (
     <>
-      <header class="bg-green-600">
-        <nav class="flex">
+      <header class="bg-green-900 relative top-0">
+        <nav class="flex sticky">
           <ul class="flex justify-center items-center gap-4 mx-auto my-6 flex-wrap min-w-full">
             {items.map((item) => (
               <li>
